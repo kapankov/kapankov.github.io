@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CppGuide — Рекомендации по C++</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1e1e1e; /* Цвет как в темной теме IDE */
+            font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт как у кода */
+            color: #d4d4d4;
+        }
+
+        .container {
+            text-align: center;
+            border: 1px solid #444;
+            padding: 40px 60px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #569cd6; /* Синий, как ключевые слова в VS Code */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .greeting {
+            color: #6a9955; /* Зеленый, как комментарии в коде */
+            font-size: 1.2em;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 1.2em;
+            background-color: #d4d4d4;
+            animation: blink 1s step-start infinite;
+            vertical-align: text-bottom;
+            margin-left: 5px;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        
+        a {
+            color: #ce9178; /* Оранжевый, как строки */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Логотип в виде псевдокода -->
+        <p style="color: #808080; margin-bottom: 0;">// cppguide.ru</p>
+        <h1>std::cout &lt;&lt; "Hello, C++ World!";</h1>
+        <p class="greeting">
+            Сайт в разработке.
+            <span class="cursor"></span>
+        </p>
+        <p style="font-size: 0.9em; color: #808080;">
+            Здесь скоро появятся рекомендации и лучшие практики.
+        </p>
+    </div>
+</body>
+</html>

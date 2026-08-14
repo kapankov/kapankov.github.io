@@ -1,0 +1,53 @@
+site_name: CppGuide.ru
+site_description: Рекомендации и лучшие практики по C++
+site_url: https://kapankov.github.io/
+remote_branch: cppguide
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: ru
+  features:
+    - navigation.tabs        # Вкладки в навигации
+    - navigation.sections    # Секции в навигации
+    - navigation.top         # Кнопка "наверх"
+    - search.highlight       # Подсветка поиска
+    - search.suggest        # Подсказки при поиске
+    - content.code.copy     # Кнопка копирования кода
+  
+  palette:
+    scheme: default
+    primary: indigo
+    accent: blue
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - Главная: index.md
+  - Идиомы:
+    - RAII: idioms/raii.md
+    - PIMPLL: idioms/pimpl.md
+    - Copy And Swap: idioms/copy-and-swap.md
+    - IILE: idioms/iile.md
+    - Reserve Then Push: idioms/reserve-then-push.md
+    - Shrink To Fit: idioms/shrink-to-fit.md
+    - Try Emplace: idioms/try-emplace.md
+    - Remove Then Erase: idioms/remove-erase.md
+
+copyright: "&copy; 2026 Konstantin A. Pankov"
+
+extra:
+  generator: false

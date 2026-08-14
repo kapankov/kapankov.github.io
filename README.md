@@ -1,1 +1,0 @@
-# kapankov.github.io

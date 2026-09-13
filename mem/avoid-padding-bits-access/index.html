@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://kapankov.github.io/stmts/use-fallthrough-attribute/">
+        <link rel="canonical" href="https://kapankov.github.io/mem/avoid-padding-bits-access/">
       
       
-        <link rel="prev" href="../switch-default-case/">
+        <link rel="prev" href="../zero-initialization-over-memset/">
       
       
-        <link rel="next" href="../../class/use-default-member-initializers/">
+        <link rel="next" href="../polymorphic-array-deletion/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Используйте атрибут fallthrough в switch - CppGuide.ru</title>
+        <title>Не читайте padding-биты объекта - CppGuide.ru</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Используйте атрибут fallthrough в switch
+              Не читайте padding-биты объекта
             
           </span>
         </div>
@@ -244,11 +244,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../mem/use-new-delete/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../use-new-delete/" class="md-tabs__link">
           
   
   
@@ -304,13 +306,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../avoid-indexed-loops/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../stmts/avoid-indexed-loops/" class="md-tabs__link">
           
   
   
@@ -708,26 +708,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -745,7 +750,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -763,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/use-new-delete/" class="md-nav__link">
+      <a href="../use-new-delete/" class="md-nav__link">
         
   
   
@@ -791,7 +796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/matching-new-delete/" class="md-nav__link">
+      <a href="../matching-new-delete/" class="md-nav__link">
         
   
   
@@ -819,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/redundant-nullptr-check/" class="md-nav__link">
+      <a href="../redundant-nullptr-check/" class="md-nav__link">
         
   
   
@@ -847,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/redundant-delete-nullptr-check/" class="md-nav__link">
+      <a href="../redundant-delete-nullptr-check/" class="md-nav__link">
         
   
   
@@ -875,7 +880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/use-smart-pointers/" class="md-nav__link">
+      <a href="../use-smart-pointers/" class="md-nav__link">
         
   
   
@@ -903,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/use-make-unique/" class="md-nav__link">
+      <a href="../use-make-unique/" class="md-nav__link">
         
   
   
@@ -931,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/zero-initialization-over-memset/" class="md-nav__link">
+      <a href="../zero-initialization-over-memset/" class="md-nav__link">
         
   
   
@@ -956,10 +961,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../mem/avoid-padding-bits-access/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -975,6 +987,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -987,7 +1000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mem/polymorphic-array-deletion/" class="md-nav__link">
+      <a href="../polymorphic-array-deletion/" class="md-nav__link">
         
   
   
@@ -1445,31 +1458,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -1487,7 +1495,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1505,7 +1513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../avoid-indexed-loops/" class="md-nav__link">
+      <a href="../../stmts/avoid-indexed-loops/" class="md-nav__link">
         
   
   
@@ -1533,7 +1541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../avoid-recomputations/" class="md-nav__link">
+      <a href="../../stmts/avoid-recomputations/" class="md-nav__link">
         
   
   
@@ -1561,7 +1569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../switch-default-case/" class="md-nav__link">
+      <a href="../../stmts/switch-default-case/" class="md-nav__link">
         
   
   
@@ -1586,17 +1594,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../stmts/use-fallthrough-attribute/" class="md-nav__link">
         
   
   
@@ -1612,7 +1613,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -2532,45 +2532,67 @@
 
 
 
-  <h1>Используйте атрибут fallthrough в switch</h1>
+  <h1>Не читайте padding-биты объекта</h1>
 
-<p>Обязательно указывайте атрибут [[fallthrough]]; (появился в С++17) для уточнения, что оператор break; внутри блока case отсутствует намеренно.</p>
+<p>Не обращайтесь к битам представления объекта, которые не входят в представление его значения. Или, другими словами, не работайте с объектом как с сырыми байтами (<code>memcmp</code>, <code>memset</code>, хеширование, сериализация), если не все биты его представления участвуют в представлении значения. Сравнивайте и копируйте поля, а не байты.</p>
+<p>Представлением объекта типа T является последовательность N байтов (<code>unsigned char</code>) в памяти, где <code>N = sizeof(T)</code>. Представлением значения объекта T является является множество битов, в которых хранится значение типа T.</p>
+<p>Проблема может заключаться в заполняющих (padding) битах, содержимое которых может быть неопределено.</p>
 <p>Неправильно:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">child</span><span class="o">-&gt;</span><span class="n">type</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ELEMENT_NODE</span><span class="p">:</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_TEXT_NODE</span><span class="p">:</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_CDATA_SECTION_NODE</span><span class="p">:</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="n">trim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ENTITY_REF_NODE</span><span class="p">:</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ENTITY_NODE</span><span class="p">:</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">default</span><span class="o">:</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="n">assert</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;cstring&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">struct</span><span class="w"> </span><span class="nc">S</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="p">;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="c1">// padding в 3 байта</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">};</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">equal</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">S</span><span class="o">&amp;</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">S</span><span class="o">&amp;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">memcmp</span><span class="p">(</span><span class="o">&amp;</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">S</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="p">}</span>
 </code></pre></div>
 <p>Правильно:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">child</span><span class="o">-&gt;</span><span class="n">type</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ELEMENT_NODE</span><span class="p">:</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_TEXT_NODE</span><span class="p">:</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_CDATA_SECTION_NODE</span><span class="p">:</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="n">trim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="p">[[</span><span class="n">fallthrough</span><span class="p">]];</span><span class="w"> </span><span class="c1">// нет break;</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ENTITY_REF_NODE</span><span class="p">:</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="k">case</span><span class="w"> </span><span class="no">XML_ENTITY_NODE</span><span class="p">:</span>
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="k">break</span><span class="p">;</span>
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">default</span><span class="o">:</span>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="n">assert</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">equal</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">S</span><span class="o">&amp;</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">S</span><span class="o">&amp;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">c</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">c</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">i</span><span class="p">;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
+</code></pre></div>
+<p>В С++20:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">struct</span><span class="w"> </span><span class="nc">S</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="p">;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">S</span><span class="o">&amp;</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">default</span><span class="p">;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">};</span>
+</code></pre></div>
+<p>Та же проблема возникает с неиспользуемыми битами в блоке размещения битовых полей.</p>
+<p>Неправильно:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;cstring&gt;</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">struct</span><span class="w"> </span><span class="nc">Flags</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="c1">// остальные биты единицы размещения не входят в представление значения</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">};</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">equal</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Flags</span><span class="o">&amp;</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Flags</span><span class="o">&amp;</span><span class="w"> </span><span class="n">y</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">memcmp</span><span class="p">(</span><span class="o">&amp;</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">Flags</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="p">}</span>
+</code></pre></div>
+<p>Правильно:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">equal</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Flags</span><span class="o">&amp;</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Flags</span><span class="o">&amp;</span><span class="w"> </span><span class="n">y</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">a</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">y</span><span class="p">.</span><span class="n">a</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">y</span><span class="p">.</span><span class="n">b</span><span class="p">;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="p">}</span>
+</code></pre></div>
+<p>У полиморфных классов в объекте есть vptr - указатель на таблицу виртуальных функций. Он входит в представление объекта, но не в представление значения: значение определяется значениями членов и динамическим типом. Поэтому важно правильно сравнивать/хешировать/сериализовать сырые байты.</p>
+<p>Неправильно:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;cstring&gt;</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">struct</span><span class="w"> </span><span class="nc">Base</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">f</span><span class="p">();</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="p">};</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">equal</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Base</span><span class="o">&amp;</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Base</span><span class="o">&amp;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">memcmp</span><span class="p">(</span><span class="o">&amp;</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">Base</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">}</span>
 </code></pre></div>
 
 

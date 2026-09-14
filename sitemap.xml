@@ -2,242 +2,242 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kapankov.github.io/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/avoid-virtual-default-arguments/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/consistent-operator-overloading/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/data-structure-alignment/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/destructor/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/encapsulate-class-data/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/explicit-constructors/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/noexcept-destructors/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/prefer-default-special-members/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/prefer-enum-class/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/pure-virtual-over-exceptions/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/redundant-dtor-clearing/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/rule-of-five-or-zero/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/use-default-member-initializers/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/use-override/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/class/virtual-calls-in-ctors-dtors/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/avoid-c-style-variadics/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/avoid-move-on-return/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/avoid-qsort/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/consistent-overload-behavior/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/evaluation-order-side-effects/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/function-argument-passing/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/func/named-function-arguments/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/copy-and-swap/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/iile/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/pimpl/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/raii/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/remove-erase/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/reserve-then-push/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/shrink-to-fit/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/idioms/try-emplace/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/avoid-padding-bits-access/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/matching-new-delete/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/polymorphic-array-deletion/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/redundant-delete-nullptr-check/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/redundant-nullptr-check/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/use-make-unique/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/use-new-delete/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/use-smart-pointers/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/mem/zero-initialization-over-memset/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/anonymous-namespaces/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/avoid-c-style-casts/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/avoid-const-cast/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/avoid-dynamic-cast/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/avoid-relative-includes/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/avoid-unevaluated-side-effects/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/include-directive-form/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/one-definition-rule/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/prefer-cpp-headers/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/prefer-nullptr/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/reserved-identifiers/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/misc/standard-namespaces/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/stmts/avoid-indexed-loops/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/stmts/avoid-recomputations/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/stmts/switch-default-case/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/stmts/use-fallthrough-attribute/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/vars/avoid-use-after-free/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/vars/minimize-variable-scope/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/vars/prefer-const/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
     <url>
          <loc>https://kapankov.github.io/vars/variable-initialization/</loc>
-         <lastmod>2026-09-13</lastmod>
+         <lastmod>2026-09-14</lastmod>
     </url>
 </urlset>

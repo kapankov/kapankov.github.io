@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://kapankov.github.io/class/prefer-enum-class/">
+        <link rel="canonical" href="https://kapankov.github.io/idioms/nvi/">
       
       
-        <link rel="prev" href="../consistent-operator-overloading/">
+        <link rel="prev" href="../pimpl/">
       
       
-        <link rel="next" href="../../misc/one-definition-rule/">
+        <link rel="next" href="../copy-and-swap/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Используйте enum class - CppGuide.ru</title>
+        <title>NVI - CppGuide.ru</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Используйте enum class
+              NVI
             
           </span>
         </div>
@@ -234,11 +234,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../idioms/raii/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../raii/" class="md-tabs__link">
           
   
   
@@ -334,13 +336,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../use-default-member-initializers/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../class/use-default-member-initializers/" class="md-tabs__link">
           
   
   
@@ -435,26 +435,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -472,7 +477,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -490,7 +495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/raii/" class="md-nav__link">
+      <a href="../raii/" class="md-nav__link">
         
   
   
@@ -518,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/pimpl/" class="md-nav__link">
+      <a href="../pimpl/" class="md-nav__link">
         
   
   
@@ -543,10 +548,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../idioms/nvi/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -562,6 +574,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -574,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/copy-and-swap/" class="md-nav__link">
+      <a href="../copy-and-swap/" class="md-nav__link">
         
   
   
@@ -602,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/iile/" class="md-nav__link">
+      <a href="../iile/" class="md-nav__link">
         
   
   
@@ -630,7 +643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/reserve-then-push/" class="md-nav__link">
+      <a href="../reserve-then-push/" class="md-nav__link">
         
   
   
@@ -658,7 +671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/shrink-to-fit/" class="md-nav__link">
+      <a href="../shrink-to-fit/" class="md-nav__link">
         
   
   
@@ -686,7 +699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/try-emplace/" class="md-nav__link">
+      <a href="../try-emplace/" class="md-nav__link">
         
   
   
@@ -714,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idioms/remove-erase/" class="md-nav__link">
+      <a href="../remove-erase/" class="md-nav__link">
         
   
   
@@ -1654,31 +1667,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
@@ -1696,7 +1704,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1714,7 +1722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../use-default-member-initializers/" class="md-nav__link">
+      <a href="../../class/use-default-member-initializers/" class="md-nav__link">
         
   
   
@@ -1742,7 +1750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../encapsulate-class-data/" class="md-nav__link">
+      <a href="../../class/encapsulate-class-data/" class="md-nav__link">
         
   
   
@@ -1770,7 +1778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../data-structure-alignment/" class="md-nav__link">
+      <a href="../../class/data-structure-alignment/" class="md-nav__link">
         
   
   
@@ -1798,7 +1806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prefer-default-special-members/" class="md-nav__link">
+      <a href="../../class/prefer-default-special-members/" class="md-nav__link">
         
   
   
@@ -1826,7 +1834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rule-of-five-or-zero/" class="md-nav__link">
+      <a href="../../class/rule-of-five-or-zero/" class="md-nav__link">
         
   
   
@@ -1854,7 +1862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../explicit-constructors/" class="md-nav__link">
+      <a href="../../class/explicit-constructors/" class="md-nav__link">
         
   
   
@@ -1882,7 +1890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../use-override/" class="md-nav__link">
+      <a href="../../class/use-override/" class="md-nav__link">
         
   
   
@@ -1910,7 +1918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../virtual-calls-in-ctors-dtors/" class="md-nav__link">
+      <a href="../../class/virtual-calls-in-ctors-dtors/" class="md-nav__link">
         
   
   
@@ -1938,7 +1946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pure-virtual-over-exceptions/" class="md-nav__link">
+      <a href="../../class/pure-virtual-over-exceptions/" class="md-nav__link">
         
   
   
@@ -1966,7 +1974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../avoid-virtual-default-arguments/" class="md-nav__link">
+      <a href="../../class/avoid-virtual-default-arguments/" class="md-nav__link">
         
   
   
@@ -1994,7 +2002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../destructor/" class="md-nav__link">
+      <a href="../../class/destructor/" class="md-nav__link">
         
   
   
@@ -2022,7 +2030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../redundant-dtor-clearing/" class="md-nav__link">
+      <a href="../../class/redundant-dtor-clearing/" class="md-nav__link">
         
   
   
@@ -2050,7 +2058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../noexcept-destructors/" class="md-nav__link">
+      <a href="../../class/noexcept-destructors/" class="md-nav__link">
         
   
   
@@ -2078,7 +2086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../consistent-operator-overloading/" class="md-nav__link">
+      <a href="../../class/consistent-operator-overloading/" class="md-nav__link">
         
   
   
@@ -2103,17 +2111,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../class/prefer-enum-class/" class="md-nav__link">
         
   
   
@@ -2129,7 +2130,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -2570,25 +2570,154 @@
 
 
 
-  <h1>Используйте enum class</h1>
+  <h1>NVI</h1>
 
-<p>Рекомендуется писать enum class (C++11) вместо старого enum в стиле С для:</p>
+<p>Идиома NVI (Non-Virtual Interface, «невиртуальный интерфейс») решает проблему хрупкого базового класса (Fragile Base Class Problem),</p>
+<p>Суть в том, что <strong>изменение базового класса может неожиданно сломать классы-наследники, хотя их собственный код не менялся</strong>. Наследники могут неявно зависеть от деталей реализации базового класса: порядка вызовов, того, какие методы и когда вызываются, какие инварианты поддерживаются и т.д. Если автор базового класса меняет эту внутреннюю логику, наследники могут перестать работать корректно.</p>
+<p>Пример:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Base</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="n">doWork</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">   </span><span class="c1">// публичный И виртуальный</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="c1">// общий код «до»</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="n">preWork</span><span class="p">();</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="c1">// ... логика базового класса</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="c1">// общий код «после»</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">        </span><span class="n">postWork</span><span class="p">();</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="o">~</span><span class="n">Base</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">default</span><span class="p">;</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">protected</span><span class="o">:</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">preWork</span><span class="p">();</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">postWork</span><span class="p">();</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="p">};</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">class</span><span class="w"> </span><span class="nc">Derived</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Base</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doWork</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="c1">// общий код «до»</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="n">Base</span><span class="o">::</span><span class="n">preWork</span><span class="p">();</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="c1">// ... логика класса-наследника</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="c1">// общий код «после»</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="n">Base</span><span class="o">::</span><span class="n">postWork</span><span class="p">();</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="p">};</span>
+</code></pre></div>
+<p>В NVI публичные методы базового класса делаются невиртуальными, а наследники переопределяют только отдельные приватные или защищённые виртуальные функции, которые вызываются из этих публичных методов.</p>
+<p>Пример:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Base</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="c1">// Публичный НЕвиртуальный метод</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doWork</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="n">preWork</span><span class="p">();</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="n">doWorkImpl</span><span class="p">();</span><span class="w"> </span><span class="c1">// логика наследника</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="n">postWork</span><span class="p">();</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="o">~</span><span class="n">Base</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">default</span><span class="p">;</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="k">protected</span><span class="o">:</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="n">doWorkImpl</span><span class="p">()</span><span class="w"> </span><span class="p">{}</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">private</span><span class="o">:</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">preWork</span><span class="p">();</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">postWork</span><span class="p">();</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="p">};</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="k">class</span><span class="w"> </span><span class="nc">Derived</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Base</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="k">protected</span><span class="o">:</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doWorkImpl</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">        </span><span class="c1">// Только своя логика. Всё остальное уже выполнено каркасом</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">        </span><span class="c1">// базового класса в нужном порядке.</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">        </span><span class="c1">// ...</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="p">};</span>
+</code></pre></div>
+<p>По сути, NVI - это способ реализации паттерна <strong>«Шаблонный метод» (Template Method)</strong> в C++.</p>
+<p>Рассмотрим пример с реальным сценарием. Допустим, есть иерархия транзакционных объектов (SQL, файл, сетевой протокол). Каждый конкретный тип реализует свои шаги <code>doBegin()</code>, <code>doCommit()</code>, <code>doRollback()</code>, но <strong>гарантии</strong> должны быть едиными:</p>
 <ul>
-<li>ограничения области видимости и предотвращения конфликтов;</li>
-<li>типобезопасности (нет неявных преобразований)</li>
-<li>возможности указания типа значений (по умолчанию int)</li>
+<li>если <code>commit()</code> бросает — автоматически делается <code>rollback()</code>;</li>
+<li>если объект уничтожается до явного <code>commit()</code> — тоже <code>rollback()</code>;</li>
+<li>логирование и метрики вокруг всех операций.</li>
 </ul>
-<p>Неправильно:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">enum</span><span class="w"> </span><span class="nc">Color</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">red</span><span class="p">,</span><span class="w"> </span><span class="n">green</span><span class="p">,</span><span class="w"> </span><span class="n">blue</span><span class="w"> </span><span class="p">};</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">enum</span><span class="w"> </span><span class="nc">TrafficLight</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">red</span><span class="p">,</span><span class="w"> </span><span class="n">yellow</span><span class="p">,</span><span class="w"> </span><span class="n">green</span><span class="w"> </span><span class="p">};</span><span class="w"> </span><span class="c1">// Ошибка: red и green уже определены!</span>
+<p>Классическая реализация без NVI:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Transaction</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">commit</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">rollback</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="o">~</span><span class="n">Transaction</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">default</span><span class="p">;</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">};</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="k">class</span><span class="w"> </span><span class="nc">SqlTransaction</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Transaction</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">commit</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">rollback</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="p">};</span>
 </code></pre></div>
-<p>Правильно:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">enum</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Color</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">red</span><span class="p">,</span><span class="w"> </span><span class="n">green</span><span class="p">,</span><span class="w"> </span><span class="n">blue</span><span class="w"> </span><span class="p">};</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">enum</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TrafficLight</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">red</span><span class="p">,</span><span class="w"> </span><span class="n">yellow</span><span class="p">,</span><span class="w"> </span><span class="n">green</span><span class="w"> </span><span class="p">};</span><span class="w"> </span><span class="c1">// OK, разные пространства имён</span>
+<p>Проблемы:</p>
+<ul>
+<li>Каждый наследник должен <strong>сам</strong> помнить про логирование, try/catch, rollback в деструкторе.</li>
+<li>Легко забыть <code>rollback()</code> в каком‑то пути выполнения или сделать это по‑разному.</li>
+<li>Трудно гарантировать инвариант «транзакция либо коммичена, либо откатана».</li>
+</ul>
+<p>Реализация с NVI:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Transaction</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;begin&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">        </span><span class="n">doBegin</span><span class="p">();</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">        </span><span class="n">committed_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">commit</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">committed_</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="p">;</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">        </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">            </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;commit&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">            </span><span class="n">doCommit</span><span class="p">();</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">            </span><span class="n">committed_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(...)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">            </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;commit failed, rollback&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">            </span><span class="n">doRollback</span><span class="p">();</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">            </span><span class="k">throw</span><span class="p">;</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">    </span><span class="o">~</span><span class="n">Transaction</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">committed_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="w">            </span><span class="n">log</span><span class="p">(</span><span class="s">&quot;dtor rollback&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">            </span><span class="n">doRollback</span><span class="p">();</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="k">protected</span><span class="o">:</span>
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="n">doBegin</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">doCommit</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a><span class="w">    </span><span class="k">virtual</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">doRollback</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a><span class="k">private</span><span class="o">:</span>
+<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">committed_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-3-36" name="__codelineno-3-36" href="#__codelineno-3-36"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">log</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">msg</span><span class="p">);</span>
+<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a><span class="p">};</span>
+<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a>
+<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a><span class="k">class</span><span class="w"> </span><span class="nc">SqlTransaction</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">Transaction</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a><span class="k">protected</span><span class="o">:</span>
+<a id="__codelineno-3-41" name="__codelineno-3-41" href="#__codelineno-3-41"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doBegin</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* SQL BEGIN */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-42" name="__codelineno-3-42" href="#__codelineno-3-42"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doCommit</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* SQL COMMIT */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-43" name="__codelineno-3-43" href="#__codelineno-3-43"></a><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">doRollback</span><span class="p">()</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* SQL ROLLBACK */</span><span class="w"> </span><span class="p">}</span>
+<a id="__codelineno-3-44" name="__codelineno-3-44" href="#__codelineno-3-44"></a><span class="p">};</span>
 </code></pre></div>
-<p>Теперь нужно явно указывать область:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">Color</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Color</span><span class="o">::</span><span class="n">red</span><span class="p">;</span><span class="w"> </span><span class="c1">// вместо просто red</span>
-</code></pre></div>
+<p>Преимущества:</p>
+<ul>
+<li>Политика «rollback при ошибке/деструкторе» реализована <strong>один раз</strong> в базовом классе.</li>
+<li>Наследники не могут случайно забыть откат или нарушить порядок.</li>
+<li>Логирование и метрики централизованы и не зависят от реализации</li>
+</ul>
 
 
 
